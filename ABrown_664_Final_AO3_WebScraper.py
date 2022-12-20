@@ -86,27 +86,4 @@ for item_number in range(1, 800):
                     json.dump(all_items,OFMD_file,indent=2)
 
               
-            # tags are all held within 'tag commas' but are further separated out as
-            # warnings, relationships, characters, freeforms, and freeforms last
-
-                # print(title)
-                # print(author)
-                # # print(date)
-                # # print(freeform_tags)
-                # print(all_custom_tags)
-                # print("\n")
-                # 
-                              
-# tag_data = entry.find("ul", {'class': 'tags commas'})
-                # if tag_data == None:
-                #     tag_data = "No tags"
-                # else:
-                #     tag_data = entry.find("ul", {'class': 'tags commas'}).text
-
-# # print(all_items)
-
-# with open('OFMD_data.json', 'w') as OFMD_file:
-#     json.dump(all_items,OFMD_file,indent=2)
-
-# fix url so it searches within official fandom tag by date updated descending
-# ask how to access hidden url
+    
