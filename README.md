@@ -13,5 +13,5 @@ Contents (in order of use):
       
 This project scrapes Archive of Our Own for freeform tag data. It was initially used to collect data on Our Flag Means Death, but can be adjusted to scrape for other searches. To look at other sources, change the source URL in the webscraper. 
 
-The code relies on dateparser, datetime, Counter. 
+The code relies on dateparser, datetime, Counter, requests, and BeautifulSoup. 
       
