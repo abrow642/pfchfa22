@@ -35,13 +35,7 @@ with open('OFMD_Processed_TagData.json', 'r') as datafile:
         
         all_items.append(list_item)
 
-        with open('OFMD_Weekly_Processed_TagData.csv', 'w') as csvout:
-            writeable_csv = csv.writer(csvout)
-
-            for row in all_items:
-                writeable_csv.writerow(row)
 
 
-
-        # with open('OFMD_Weekly_Processed_TagData.json', 'w') as OFMD_file_parsed:
-        #     json.dump(all_items,OFMD_file_parsed,indent=2,default=str)
+        with open('OFMD_Weekly_Processed_TagData.json', 'w') as OFMD_file_parsed:
+            json.dump(all_items,OFMD_file_parsed,indent=2,default=str)
